@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/articles"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Article</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <h4>{{ loadedArticle.title }}</h4>
+  <p>By: {{ loadedArticle.author }}</p>
+</ion-content>
